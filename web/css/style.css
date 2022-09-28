@@ -1,0 +1,140 @@
+body {
+    background: #213747;
+}
+
+
+
+
+/* loginblock */
+.loginblock {
+    display: none;
+}
+
+.loginblock.active {
+    display: block;
+}
+
+.loginmarkup {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    width: 428px;
+    height: 604px;
+    background: #192734;
+    border-radius: 15px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lb_logo {
+    font-family: 'Syncopate';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+    padding: 11px 0 70px 0;
+}
+
+/* Login or Register */
+.lb_state {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+/* Register|Login block */
+.lb_receivinginfo {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.lb_ri_textEmail,
+.lb_ri_inputEmail,
+.lb_ri_textPassw,
+.lb_ri_inputPassw {
+    margin: 0 0 5px 39px;
+}
+
+.lb_ri_inputEmail-i,
+.lb_ri_inputPassw-i {
+    width: 340px;
+    height: 40px;
+    background: #43535F;
+    border-radius: 15px;
+
+    border-style: none;
+    outline:none;
+
+    padding-left: 10px;
+}
+
+.lb_ri_inputEmail {
+    margin-bottom: 20px;
+}
+
+.lb_ri_forgotPassw {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: right;
+    padding: 5px 39px 0 0;
+}
+
+.lb_ri_forgotPassw_t {
+    color: #7E99B2;
+    text-decoration: none;
+}
+
+/* Sign In or UP button */
+.lb_ri_sign {
+    margin: 63px auto 0;
+    width: 350px;
+    height: 40px;
+    background: #285C50;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.lb_ri_sign_t {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center; 
+    padding-top: 11px;
+}
+
+/* forgot password */
+.lb_else {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: center;
+    padding-top: 79px;
+}
+
+.lb_else_t {
+    color: #7E99B2;
+    text-decoration: none;
+}
+
+/* Register */
+.registerblock {
+    display: none;
+}
+
+.registerblock.active {
+    display: block;
+}
+
+.lb_ri_sign.register {
+    margin: 39px auto 0;
+}
+
+.lb_else.register {
+    padding-top: 39px;
+}
