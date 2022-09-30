@@ -93,20 +93,22 @@ body {
 
 /* Sign In or UP button */
 .lb_ri_sign {
-    margin: 63px auto 0;
+    margin: 63px 39px 0;
     width: 350px;
     height: 40px;
     background: #285C50;
     border-radius: 15px;
     cursor: pointer;
+    outline: none;
+    border: none;
 }
 
 .lb_ri_sign_t {
+    color: #FFFFFF;
     font-weight: 700;
     font-size: 15px;
     line-height: 17px;
-    text-align: center; 
-    padding-top: 11px;
+    text-align: center;
 }
 
 /* forgot password */
@@ -133,9 +135,10 @@ body {
 }
 
 .lb_ri_sign.register {
-    margin: 39px auto 0;
+    margin: 40px 39px 0;
+    
 }
 
 .lb_else.register {
-    padding-top: 39px;
+    padding-top: 35px;
 }
