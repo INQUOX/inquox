@@ -1,1 +1,1 @@
-# inquox-app
+# inquox
