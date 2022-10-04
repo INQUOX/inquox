@@ -5,15 +5,7 @@ body {
 
 
 
-/* loginblock */
-.loginblock {
-    display: none;
-}
-
-.loginblock.active {
-    display: block;
-}
-
+/* login.html & register.html */
 
 .loginmarkup {
     font-family: 'Ubuntu';
@@ -125,14 +117,7 @@ body {
     text-decoration: none;
 }
 
-/* Register */
-.registerblock {
-    display: none;
-}
-
-.registerblock.active {
-    display: block;
-}
+/* register.html */
 
 .lb_ri_sign.register {
     margin: 40px 39px 0;
