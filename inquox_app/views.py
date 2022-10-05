@@ -2,5 +2,5 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def login(request):
+def to_login(request):
   return render(request, "inquox_app/login.html")
