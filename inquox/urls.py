@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from inquox_app.views import to_login
+from inquox_app.views import to_login, to_register
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', to_login, name='login'),
+    path('register/', to_register, name='register'),
 ]
