@@ -1,4 +1,5 @@
 {% load static %}
+ 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -44,7 +45,7 @@
             </div>
             <!--have or not have account-->
             <div class="lb_else register">
-                <a class="lb_else_t" href="">Alredy have an account? Login Now</a>
+                <a class="lb_else_t" href="{% url 'to-login' %}">Alredy have an account? Login Now</a>
             </div>
         </div>
     </div>
