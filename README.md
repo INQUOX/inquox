@@ -11,10 +11,6 @@ or
 
 > python3 manage.py runserver
 
-or
-
-> pip manage.py runserver
-
 or other similar
 
 
