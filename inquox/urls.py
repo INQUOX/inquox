@@ -19,6 +19,6 @@ from inquox_app.views import to_login, to_register
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', to_login, name='login'),
-    path('register/', to_register, name='register'),
+    path('', to_login, name='to-login'),
+    path('register/', to_register, name='to-register'),
 ]
